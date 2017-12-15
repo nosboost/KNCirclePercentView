@@ -1,0 +1,16 @@
+PODS:
+  - KNCirclePrecentView (0.1.0)
+
+DEPENDENCIES:
+  - KNCirclePrecentView (from `../`)
+
+EXTERNAL SOURCES:
+  KNCirclePrecentView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KNCirclePrecentView: 0803c1a9ad59c7822fe2f7d688b54263e94ae146
+
+PODFILE CHECKSUM: 1452f9f144e57ff7ded201112814d4b8f097b7ca
+
+COCOAPODS: 1.3.1

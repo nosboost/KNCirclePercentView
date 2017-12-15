@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'KNCirclePrecentView_Example' do
+  pod 'KNCirclePrecentView', :path => '../'
+
+end

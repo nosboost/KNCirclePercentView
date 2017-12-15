@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0108FBF0402B272CD1E8E90F2B9F4A7C /* Pods-KNCirclePrecentView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBDBD34E842E82C72FA3B33BB8BF9EAC /* Pods-KNCirclePrecentView_Example-dummy.m */; };
+		3FE63449FB596D592EBB0696A7B6AF58 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		82E420568625FF31EA5CCB0C89D4AABE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8596C2EF499CB59F0F44DC20EA58F2D7 /* KNCirclePercentView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE6D2413E65FF54C10FEEE887205012 /* KNCirclePercentView.m */; };
+		C014BA138C3226CF60ED5CF9864F42C5 /* KNPercentLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F1953F9B754349226209A1517F89CDC /* KNPercentLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC250CFD071997D09DAB2882BD13D48C /* KNPercentLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 93534D94F5E2FB361159C0D474E170B4 /* KNPercentLabel.m */; };
+		E0201E6DC967BBA8DE3E2C259CA29BE4 /* KNCirclePrecent.h in Headers */ = {isa = PBXBuildFile; fileRef = BCB33DD805D2B405A2BD3204D898F018 /* KNCirclePrecent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E25E4523FD77BCD3CC9D1057289CB13F /* KNCirclePercentView.h in Headers */ = {isa = PBXBuildFile; fileRef = C551819E1B21E3AF29F1EFEF058A9130 /* KNCirclePercentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2AB9B31A14F06ECCF21763B15B95E35 /* KNCirclePrecentView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36DA6AC4F0794BACD70B56B3B23155C1 /* KNCirclePrecentView-dummy.m */; };
+		FD4435D3A5B5D9442EF1DEC0BF16A5B2 /* Pods-KNCirclePrecentView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5198E5DF4C5F75E5944F2C38ED3F452 /* Pods-KNCirclePrecentView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E48D1F85A838D9A8B520250E00B71CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89BB4B7185666E0DE05EEE30B959A831;
+			remoteInfo = KNCirclePrecentView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36DA6AC4F0794BACD70B56B3B23155C1 /* KNCirclePrecentView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KNCirclePrecentView-dummy.m"; sourceTree = "<group>"; };
+		427F121BD58910DCEE3D2EB45F0B87E8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5339A7B49452B9DBBF00615F3F22E9DA /* Pods_KNCirclePrecentView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KNCirclePrecentView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64B3CF47B2335F125D790CD2323841D8 /* Pods-KNCirclePrecentView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KNCirclePrecentView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6940FFBCB0129C4BA767D462A8E926AC /* Pods-KNCirclePrecentView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KNCirclePrecentView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F1953F9B754349226209A1517F89CDC /* KNPercentLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNPercentLabel.h; path = KNCirclePrecentView/Classes/KNPercentLabel.h; sourceTree = "<group>"; };
+		8054B63C05DA41E2521C90617C78EE95 /* KNCirclePrecentView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KNCirclePrecentView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		845D788CC18764CC35BFA268F771F908 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB629153C10AB8628199080C654B3D9 /* KNCirclePrecentView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = KNCirclePrecentView.modulemap; sourceTree = "<group>"; };
+		93534D94F5E2FB361159C0D474E170B4 /* KNPercentLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KNPercentLabel.m; path = KNCirclePrecentView/Classes/KNPercentLabel.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4DC410E22B2312384B435B281C9CCD2 /* Pods-KNCirclePrecentView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-KNCirclePrecentView_Example.modulemap"; sourceTree = "<group>"; };
+		A9D31508B2EE5B603455BB42D1F9F0AD /* KNCirclePrecentView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KNCirclePrecentView.xcconfig; sourceTree = "<group>"; };
+		AF461F85EF1ED201CF7FABA187AC96C8 /* Pods-KNCirclePrecentView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KNCirclePrecentView_Example-resources.sh"; sourceTree = "<group>"; };
+		B9F7D993050676511E49F24E9E2CD175 /* Pods-KNCirclePrecentView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KNCirclePrecentView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BCB33DD805D2B405A2BD3204D898F018 /* KNCirclePrecent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KNCirclePrecent.h; sourceTree = "<group>"; };
+		C008339D7EE52C4BB00647304702C73E /* Pods-KNCirclePrecentView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KNCirclePrecentView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C551819E1B21E3AF29F1EFEF058A9130 /* KNCirclePercentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KNCirclePercentView.h; path = KNCirclePrecentView/Classes/KNCirclePercentView.h; sourceTree = "<group>"; };
+		CEC996FF6070DE0FDA100EE04B035F81 /* Pods-KNCirclePrecentView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KNCirclePrecentView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5198E5DF4C5F75E5944F2C38ED3F452 /* Pods-KNCirclePrecentView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KNCirclePrecentView_Example-umbrella.h"; sourceTree = "<group>"; };
+		DBDBD34E842E82C72FA3B33BB8BF9EAC /* Pods-KNCirclePrecentView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KNCirclePrecentView_Example-dummy.m"; sourceTree = "<group>"; };
+		EF43260145C036D92EF932169AF8688B /* KNCirclePrecentView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KNCirclePrecentView-prefix.pch"; sourceTree = "<group>"; };
+		FBE6D2413E65FF54C10FEEE887205012 /* KNCirclePercentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KNCirclePercentView.m; path = KNCirclePrecentView/Classes/KNCirclePercentView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5709712D6AD23815EAC520D732C513ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82E420568625FF31EA5CCB0C89D4AABE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0EAF5DDDAE5BAA72AB7EDB052CFABB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE63449FB596D592EBB0696A7B6AF58 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29F4E202309C329A906B35AD570B6542 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				427F121BD58910DCEE3D2EB45F0B87E8 /* Info.plist */,
+				8AB629153C10AB8628199080C654B3D9 /* KNCirclePrecentView.modulemap */,
+				A9D31508B2EE5B603455BB42D1F9F0AD /* KNCirclePrecentView.xcconfig */,
+				36DA6AC4F0794BACD70B56B3B23155C1 /* KNCirclePrecentView-dummy.m */,
+				EF43260145C036D92EF932169AF8688B /* KNCirclePrecentView-prefix.pch */,
+				BCB33DD805D2B405A2BD3204D898F018 /* KNCirclePrecent.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KNCirclePrecentView";
+			sourceTree = "<group>";
+		};
+		5EB55C0356151169425BEFA92FF762D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8054B63C05DA41E2521C90617C78EE95 /* KNCirclePrecentView.framework */,
+				5339A7B49452B9DBBF00615F3F22E9DA /* Pods_KNCirclePrecentView_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F8F5790D3C3F727DBF01FD40231BBF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFB19D570DF27BFAA07483F9C1BCFBEA /* KNCirclePrecentView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				74F8F5790D3C3F727DBF01FD40231BBF /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5EB55C0356151169425BEFA92FF762D2 /* Products */,
+				F5165903F22BA23E0B6E82B18CD6E02A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F5165903F22BA23E0B6E82B18CD6E02A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF2AB1886DEE77E64F8FC7C8A94D9793 /* Pods-KNCirclePrecentView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		FF2AB1886DEE77E64F8FC7C8A94D9793 /* Pods-KNCirclePrecentView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				845D788CC18764CC35BFA268F771F908 /* Info.plist */,
+				A4DC410E22B2312384B435B281C9CCD2 /* Pods-KNCirclePrecentView_Example.modulemap */,
+				6940FFBCB0129C4BA767D462A8E926AC /* Pods-KNCirclePrecentView_Example-acknowledgements.markdown */,
+				CEC996FF6070DE0FDA100EE04B035F81 /* Pods-KNCirclePrecentView_Example-acknowledgements.plist */,
+				DBDBD34E842E82C72FA3B33BB8BF9EAC /* Pods-KNCirclePrecentView_Example-dummy.m */,
+				C008339D7EE52C4BB00647304702C73E /* Pods-KNCirclePrecentView_Example-frameworks.sh */,
+				AF461F85EF1ED201CF7FABA187AC96C8 /* Pods-KNCirclePrecentView_Example-resources.sh */,
+				D5198E5DF4C5F75E5944F2C38ED3F452 /* Pods-KNCirclePrecentView_Example-umbrella.h */,
+				B9F7D993050676511E49F24E9E2CD175 /* Pods-KNCirclePrecentView_Example.debug.xcconfig */,
+				64B3CF47B2335F125D790CD2323841D8 /* Pods-KNCirclePrecentView_Example.release.xcconfig */,
+			);
+			name = "Pods-KNCirclePrecentView_Example";
+			path = "Target Support Files/Pods-KNCirclePrecentView_Example";
+			sourceTree = "<group>";
+		};
+		FFB19D570DF27BFAA07483F9C1BCFBEA /* KNCirclePrecentView */ = {
+			isa = PBXGroup;
+			children = (
+				C551819E1B21E3AF29F1EFEF058A9130 /* KNCirclePercentView.h */,
+				FBE6D2413E65FF54C10FEEE887205012 /* KNCirclePercentView.m */,
+				6F1953F9B754349226209A1517F89CDC /* KNPercentLabel.h */,
+				93534D94F5E2FB361159C0D474E170B4 /* KNPercentLabel.m */,
+				29F4E202309C329A906B35AD570B6542 /* Support Files */,
+			);
+			name = KNCirclePrecentView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		93B3847F765F8AB1E61125B4B0333F77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD4435D3A5B5D9442EF1DEC0BF16A5B2 /* Pods-KNCirclePrecentView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD0E1B276DBC500656EA8D193DAD003B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E25E4523FD77BCD3CC9D1057289CB13F /* KNCirclePercentView.h in Headers */,
+				E0201E6DC967BBA8DE3E2C259CA29BE4 /* KNCirclePrecent.h in Headers */,
+				C014BA138C3226CF60ED5CF9864F42C5 /* KNPercentLabel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E055005B3C1ABBEF07858C33C589488 /* Pods-KNCirclePrecentView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236947F77C3E7B858BD21B587BEFDD59 /* Build configuration list for PBXNativeTarget "Pods-KNCirclePrecentView_Example" */;
+			buildPhases = (
+				C3947C7AA2AE80D8AD3FE244A1567719 /* Sources */,
+				5709712D6AD23815EAC520D732C513ED /* Frameworks */,
+				93B3847F765F8AB1E61125B4B0333F77 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4B99C9B03FE81C1CD51964FA14322FA /* PBXTargetDependency */,
+			);
+			name = "Pods-KNCirclePrecentView_Example";
+			productName = "Pods-KNCirclePrecentView_Example";
+			productReference = 5339A7B49452B9DBBF00615F3F22E9DA /* Pods_KNCirclePrecentView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89BB4B7185666E0DE05EEE30B959A831 /* KNCirclePrecentView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CF78E70636429D2C7C4EF3269D1B2DE /* Build configuration list for PBXNativeTarget "KNCirclePrecentView" */;
+			buildPhases = (
+				67651F03BD783D3B2DA6CE0B1B2B96F3 /* Sources */,
+				7E0EAF5DDDAE5BAA72AB7EDB052CFABB /* Frameworks */,
+				BD0E1B276DBC500656EA8D193DAD003B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KNCirclePrecentView;
+			productName = KNCirclePrecentView;
+			productReference = 8054B63C05DA41E2521C90617C78EE95 /* KNCirclePrecentView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5EB55C0356151169425BEFA92FF762D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89BB4B7185666E0DE05EEE30B959A831 /* KNCirclePrecentView */,
+				5E055005B3C1ABBEF07858C33C589488 /* Pods-KNCirclePrecentView_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67651F03BD783D3B2DA6CE0B1B2B96F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8596C2EF499CB59F0F44DC20EA58F2D7 /* KNCirclePercentView.m in Sources */,
+				E2AB9B31A14F06ECCF21763B15B95E35 /* KNCirclePrecentView-dummy.m in Sources */,
+				DC250CFD071997D09DAB2882BD13D48C /* KNPercentLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3947C7AA2AE80D8AD3FE244A1567719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0108FBF0402B272CD1E8E90F2B9F4A7C /* Pods-KNCirclePrecentView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4B99C9B03FE81C1CD51964FA14322FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KNCirclePrecentView;
+			target = 89BB4B7185666E0DE05EEE30B959A831 /* KNCirclePrecentView */;
+			targetProxy = 3E48D1F85A838D9A8B520250E00B71CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06E5293F01733E4D0B828CEF6DF6BBEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F7D993050676511E49F24E9E2CD175 /* Pods-KNCirclePrecentView_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KNCirclePrecentView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KNCirclePrecentView_Example/Pods-KNCirclePrecentView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KNCirclePrecentView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5DD908BEACFAC8D48FD9E43B5DEF4AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B3CF47B2335F125D790CD2323841D8 /* Pods-KNCirclePrecentView_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KNCirclePrecentView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KNCirclePrecentView_Example/Pods-KNCirclePrecentView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KNCirclePrecentView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DDCB134F6B00ECC1581145DA34762F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D31508B2EE5B603455BB42D1F9F0AD /* KNCirclePrecentView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KNCirclePrecentView/KNCirclePrecentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KNCirclePrecentView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KNCirclePrecentView/KNCirclePrecentView.modulemap";
+				PRODUCT_NAME = KNCirclePrecentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F32F7CCF7ADF7BA69EB77DAB2AD08FCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D31508B2EE5B603455BB42D1F9F0AD /* KNCirclePrecentView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KNCirclePrecentView/KNCirclePrecentView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KNCirclePrecentView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KNCirclePrecentView/KNCirclePrecentView.modulemap";
+				PRODUCT_NAME = KNCirclePrecentView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		236947F77C3E7B858BD21B587BEFDD59 /* Build configuration list for PBXNativeTarget "Pods-KNCirclePrecentView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E5293F01733E4D0B828CEF6DF6BBEA /* Debug */,
+				5DD908BEACFAC8D48FD9E43B5DEF4AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CF78E70636429D2C7C4EF3269D1B2DE /* Build configuration list for PBXNativeTarget "KNCirclePrecentView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32F7CCF7ADF7BA69EB77DAB2AD08FCD /* Debug */,
+				DDCB134F6B00ECC1581145DA34762F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

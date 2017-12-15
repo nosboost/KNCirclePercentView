@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="mxq-st-vnA">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="0p9-y8-d8F">
+            <objects>
+                <viewController id="mxq-st-vnA" customClass="KNViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="CNZ-CS-Cus"/>
+                        <viewControllerLayoutGuide type="bottom" id="9Vb-bf-Abr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cCf-Wq-geT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AqG-tf-cQG">
+                                <rect key="frame" x="290" y="30" width="69" height="30"/>
+                                <state key="normal" title="Animation"/>
+                                <connections>
+                                    <action selector="resetAction:" destination="mxq-st-vnA" eventType="touchUpInside" id="Lez-e2-xPJ"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h9y-wH-TRV" customClass="KNCirclePercentView">
+                                <rect key="frame" x="87.5" y="121" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="AeU-vv-8Ur"/>
+                                    <constraint firstAttribute="height" constant="200" id="sjW-fe-3xC"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radius" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qyz-NF-ISu">
+                                <rect key="frame" x="161.5" y="90" width="52" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Circle Percent" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4kF-6f-ogW">
+                                <rect key="frame" x="133.5" y="331" width="108" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ozn-SX-eFK" customClass="KNCirclePercentView">
+                                <rect key="frame" x="87.5" y="362" width="200" height="200"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="M8r-S9-eUl"/>
+                                    <constraint firstAttribute="width" constant="200" id="cqC-Gr-sjK"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Percent:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SWJ-Uk-8it">
+                                <rect key="frame" x="16" y="35" width="64" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3tc-iM-XxS">
+                                <rect key="frame" x="89" y="31" width="100" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="GGu-0r-Ccr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="h9y-wH-TRV" firstAttribute="centerX" secondItem="cCf-Wq-geT" secondAttribute="centerX" id="1Kt-fN-XFi"/>
+                            <constraint firstItem="Ozn-SX-eFK" firstAttribute="centerX" secondItem="cCf-Wq-geT" secondAttribute="centerX" id="1YA-Gl-hNC"/>
+                            <constraint firstItem="9Vb-bf-Abr" firstAttribute="top" secondItem="Ozn-SX-eFK" secondAttribute="bottom" constant="77" id="2VZ-5I-8lB"/>
+                            <constraint firstItem="AqG-tf-cQG" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="cCf-Wq-geT" secondAttribute="leadingMargin" id="80X-v6-0IC"/>
+                            <constraint firstItem="AqG-tf-cQG" firstAttribute="centerY" secondItem="SWJ-Uk-8it" secondAttribute="centerY" id="8TH-ht-1FQ"/>
+                            <constraint firstItem="Qyz-NF-ISu" firstAttribute="top" secondItem="AqG-tf-cQG" secondAttribute="bottom" constant="30" id="8Wt-cj-S7Q"/>
+                            <constraint firstItem="4kF-6f-ogW" firstAttribute="top" secondItem="h9y-wH-TRV" secondAttribute="bottom" constant="10" id="EsH-BA-P6d"/>
+                            <constraint firstItem="h9y-wH-TRV" firstAttribute="centerY" secondItem="cCf-Wq-geT" secondAttribute="centerY" id="GNI-PT-fKO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="AqG-tf-cQG" secondAttribute="trailing" id="H4Y-k5-KC9"/>
+                            <constraint firstItem="4kF-6f-ogW" firstAttribute="centerX" secondItem="cCf-Wq-geT" secondAttribute="centerX" id="L3n-f8-Qos"/>
+                            <constraint firstItem="h9y-wH-TRV" firstAttribute="top" secondItem="Qyz-NF-ISu" secondAttribute="bottom" constant="10" id="NaJ-m3-vQ6"/>
+                            <constraint firstItem="Qyz-NF-ISu" firstAttribute="centerX" secondItem="cCf-Wq-geT" secondAttribute="centerX" id="OxJ-PB-rWQ"/>
+                            <constraint firstItem="SWJ-Uk-8it" firstAttribute="top" secondItem="AqG-tf-cQG" secondAttribute="top" id="PcV-62-FPD"/>
+                            <constraint firstItem="h9y-wH-TRV" firstAttribute="top" secondItem="AqG-tf-cQG" secondAttribute="bottom" constant="20" id="UDV-b5-dct"/>
+                            <constraint firstItem="Ozn-SX-eFK" firstAttribute="leading" secondItem="cCf-Wq-geT" secondAttribute="leading" constant="20" id="dAz-90-lVo"/>
+                            <constraint firstItem="3tc-iM-XxS" firstAttribute="centerY" secondItem="SWJ-Uk-8it" secondAttribute="centerY" id="hHg-1z-oUM"/>
+                            <constraint firstItem="3tc-iM-XxS" firstAttribute="leading" secondItem="SWJ-Uk-8it" secondAttribute="trailing" constant="9" id="hLz-5h-hjy"/>
+                            <constraint firstItem="AqG-tf-cQG" firstAttribute="top" secondItem="CNZ-CS-Cus" secondAttribute="bottom" constant="10" id="hma-40-aAu"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="SWJ-Uk-8it" secondAttribute="leading" id="qbN-RY-cDg"/>
+                            <constraint firstItem="Ozn-SX-eFK" firstAttribute="top" secondItem="4kF-6f-ogW" secondAttribute="bottom" constant="10" id="r1S-RI-8Ll"/>
+                            <constraint firstItem="Ozn-SX-eFK" firstAttribute="top" secondItem="h9y-wH-TRV" secondAttribute="bottom" constant="20" id="xkK-pz-sTu"/>
+                            <constraint firstItem="AqG-tf-cQG" firstAttribute="centerX" secondItem="cCf-Wq-geT" secondAttribute="centerX" id="zdx-GF-pyM"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="PcV-62-FPD"/>
+                                <exclude reference="GNI-PT-fKO"/>
+                                <exclude reference="UDV-b5-dct"/>
+                                <exclude reference="zdx-GF-pyM"/>
+                                <exclude reference="dAz-90-lVo"/>
+                                <exclude reference="xkK-pz-sTu"/>
+                                <exclude reference="2VZ-5I-8lB"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="autoCalculateCircleView" destination="Ozn-SX-eFK" id="vW5-eS-Ng9"/>
+                        <outlet property="circleView" destination="h9y-wH-TRV" id="k6B-Ae-1b3"/>
+                        <outlet property="radiusLabel" destination="Qyz-NF-ISu" id="7SR-kI-HuY"/>
+                        <outlet property="reset" destination="AqG-tf-cQG" id="WqO-vu-J8i"/>
+                        <outlet property="textField" destination="3tc-iM-XxS" id="Z7w-bz-NXY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zpj-yf-Xow" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="354" y="445"/>
+        </scene>
+    </scenes>
+</document>

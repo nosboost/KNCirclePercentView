@@ -1,0 +1,6 @@
+framework module Pods_KNCirclePrecentView_Example {
+  umbrella header "Pods-KNCirclePrecentView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

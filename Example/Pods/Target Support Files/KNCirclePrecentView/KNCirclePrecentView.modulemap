@@ -1,0 +1,6 @@
+framework module KNCirclePrecentView {
+  umbrella header "KNCirclePrecentView-umbrella.h"
+
+  export *
+  module * { export * }
+}
