@@ -20,7 +20,7 @@
 - (void)start;
 @end
 
-@interface KNPercentLayer : CALayer
+@interface KNPercentLayer : CALayer <CAAnimationDelegate>
 
 @property (weak, nonatomic) id<KNPercentDelegate> tweenDelegate;
 @property (nonatomic) CGFloat fromValue;
