@@ -30,8 +30,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
                    fillColor:(UIColor *)fillColor
                  strokeColor:(UIColor *)strokeColor
               animatedColors:(NSArray *)colors;
-                                          
-  - (void)startAnimation;
+
+- (void)startAnimation;
 ```
 
 ## Screenshot
@@ -51,4 +51,3 @@ pod 'KNCirclePrecentView'
 ## License
 
 KNCirclePrecentView is available under the MIT license. See the LICENSE file for more info.
-
