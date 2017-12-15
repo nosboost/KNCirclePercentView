@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/nosboost/KNCirclePercentView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Khoi Nguyen Nguyen' => 'Khoi Nguyen Nguyen' }
-  s.source           = { :git => 'https://github.com/nosboost/KNCirclePercentView', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/nosboost/KNCirclePercentView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 
