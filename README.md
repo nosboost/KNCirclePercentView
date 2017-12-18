@@ -10,26 +10,29 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 1. Add KNCirclePercentView using storyboard/nib/code
 2. Call Methods:
 ```Objective-C
-/**
+/*
  * Draw Circle with specified radius
  *
- * @param radius radius of circle view
  * @param percent percent of circle to display
- * @param lineWidth circle thickness
+ * @param duration animation duration
+ * @param lineWidth witdth of circle
  * @param clockwise determine clockwise
+ * @param lineCap line cap - kCALineCapButt, kCALineCapRound, kCALineCapSquare
  * @param fillColor color inside circle
  * @param strokeColor color of circle line
- * @param animatedColors colors array to animated. if this param is nil, Stroke color will be used to draw circle
+ * @param backgroundStrokeColor color of the stroke background
+ * @param animatedColors colors array to animated. if this param is nil, stroke color will be used to draw circle
  */
 
-- (void)drawCircleWithRadius:(CGFloat)radius
-                     percent:(CGFloat)percent
-                    duration:(CGFloat)duration
-                   lineWidth:(CGFloat)lineWidth
-                   clockwise:(BOOL)clockwise
-                   fillColor:(UIColor *)fillColor
-                 strokeColor:(UIColor *)strokeColor
-              animatedColors:(NSArray *)colors;
+- (void)drawCircleWithPercent:(CGFloat)percent
+                     duration:(CGFloat)duration
+                    lineWidth:(CGFloat)lineWidth
+                    clockwise:(BOOL)clockwise
+                      lineCap:(NSString *)lineCap
+                    fillColor:(UIColor *)fillColor
+                  strokeColor:(UIColor *)strokeColor
+        backgroundStrokeColor:(UIColor *)backgroundStrokeColor
+               animatedColors:(NSArray *)colors;
 
 - (void)startAnimation;
 ```

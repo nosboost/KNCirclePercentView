@@ -197,7 +197,6 @@
     
     CAKeyframeAnimation *colorsAnimation = [CAKeyframeAnimation animationWithKeyPath:@"strokeColor"];
     colorsAnimation.values = self.colors;
-//    colorsAnimation.keyTimes = [NSArray arrayWithObjects:[NSNumber numberWithFloat:0.3], [NSNumber numberWithFloat:0.8], [NSNumber numberWithFloat:1.0], nil];
     colorsAnimation.calculationMode = kCAAnimationPaced;
     colorsAnimation.removedOnCompletion = NO;
     colorsAnimation.fillMode = kCAFillModeForwards;

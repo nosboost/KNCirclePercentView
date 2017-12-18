@@ -21,25 +21,28 @@ typedef enum {
 @property (nonatomic, strong) UILabel *percentLabel;
 
 /*
- * Auto calculated radius base on View's frame
+ * Draw Circle with specified radius
  *
  * @param percent percent of circle to display
+ * @param duration animation duration
  * @param lineWidth witdth of circle
  * @param clockwise determine clockwise
- * @param fillColor color inside cricle
+ * @param lineCap line cap - kCALineCapButt, kCALineCapRound, kCALineCapSquare
+ * @param fillColor color inside circle
  * @param strokeColor color of circle line
- * @param animatedColors colors array to animated. if this param is nil, Stroke color will be used to draw circle
+ * @param backgroundStrokeColor color of the stroke background 
+ * @param animatedColors colors array to animated. if this param is nil, stroke color will be used to draw circle
  */
 
 - (void)drawCircleWithPercent:(CGFloat)percent
-                    duration:(CGFloat)duration
-                   lineWidth:(CGFloat)lineWidth
-                   clockwise:(BOOL)clockwise
-                     lineCap:(NSString *)lineCap
-                   fillColor:(UIColor *)fillColor
-                 strokeColor:(UIColor *)strokeColor
-       backgroundStrokeColor:(UIColor *)backgroundStrokeColor
-              animatedColors:(NSArray *)colors;
+                     duration:(CGFloat)duration
+                    lineWidth:(CGFloat)lineWidth
+                    clockwise:(BOOL)clockwise
+                      lineCap:(NSString *)lineCap
+                    fillColor:(UIColor *)fillColor
+                  strokeColor:(UIColor *)strokeColor
+        backgroundStrokeColor:(UIColor *)backgroundStrokeColor
+               animatedColors:(NSArray *)colors;
 
 - (void)drawPieChartWithPercent:(CGFloat)percent
                        duration:(CGFloat)duration
