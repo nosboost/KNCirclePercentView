@@ -49,6 +49,7 @@
                                                 lineCap:kCALineCapRound
                                               fillColor:[UIColor clearColor]
                                             strokeColor:[UIColor orangeColor]
+                                  backgroundStrokeColor:[UIColor grayColor]
                                          animatedColors:nil];
     self.autoCalculateCircleView.percentLabel.font = [UIFont systemFontOfSize:35];
     
@@ -89,6 +90,7 @@
                                                 lineCap:kCALineCapRound
                                               fillColor:[UIColor clearColor]
                                             strokeColor:[UIColor orangeColor]
+                                  backgroundStrokeColor:[UIColor grayColor]
                                          animatedColors:nil];
     [self.autoCalculateCircleView startAnimation];
 }

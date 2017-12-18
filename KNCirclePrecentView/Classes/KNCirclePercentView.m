@@ -19,6 +19,7 @@
 @property (nonatomic) CGFloat percent;
 @property (nonatomic) CGFloat radius;
 @property (nonatomic) CGFloat lineWidth;
+@property (nonatomic) UIColor *backgroundStrokeColor;
 @property (nonatomic) NSString *lineCap; // kCALineCapButt, kCALineCapRound, kCALineCapSquare
 @property (nonatomic) BOOL clockwise;
 @property (nonatomic, strong) NSMutableArray *colors;
@@ -61,12 +62,14 @@
                       lineCap:(NSString *)lineCap
                     fillColor:(UIColor *)fillColor
                   strokeColor:(UIColor *)strokeColor
+        backgroundStrokeColor:(UIColor *)backgroundStrokeColor
                animatedColors:(NSArray *)colors {
  
     self.duration = duration;
     self.percent = percent;
     self.lineWidth = lineWidth;
     self.clockwise = clockwise;
+    self.backgroundStrokeColor = backgroundStrokeColor;
     [self.colors removeAllObjects];
     if (colors != nil) {
         for (UIColor *color in colors) {
@@ -126,12 +129,11 @@
     
     // Configure the apperence of the circle
     self.backgroundLayer.fillColor = fillColor.CGColor;
-    self.backgroundLayer.strokeColor = [UIColor lightGrayColor].CGColor;
-    self.backgroundLayer.lineWidth = self.lineWidth;
+    self.backgroundLayer.strokeColor = self.backgroundStrokeColor.CGColor;
+    self.backgroundLayer.lineWidth = self.lineWidth - 2;
     self.backgroundLayer.lineCap = self.lineCap;
     self.backgroundLayer.rasterizationScale = 2 * [UIScreen mainScreen].scale;
     self.backgroundLayer.shouldRasterize = YES;
-
 }
 
 - (void)setupCircleLayerWithStrokeColor:(UIColor *)strokeColor {
@@ -153,7 +155,6 @@
     self.circle.lineCap = self.lineCap;
     self.circle.shouldRasterize = YES;
     self.circle.rasterizationScale = 2 * [UIScreen mainScreen].scale;
-
 }
 
 - (void)setupPercentLabel {
@@ -164,7 +165,7 @@
     self.percentLabel.translatesAutoresizingMaskIntoConstraints = NO;
     [self addConstraints:@[centerHor, centerVer]];
     [self layoutIfNeeded];
-    self.percentLabel.text = [NSString stringWithFormat:@"%d%%", (int)self.percent];
+    self.percentLabel.text = [NSString stringWithFormat:@"%.1f", (CGFloat)self.percent / 10.0];
 }
 
 - (void)startAnimation {

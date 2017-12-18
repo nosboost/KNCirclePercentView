@@ -38,6 +38,7 @@ typedef enum {
                      lineCap:(NSString *)lineCap
                    fillColor:(UIColor *)fillColor
                  strokeColor:(UIColor *)strokeColor
+       backgroundStrokeColor:(UIColor *)backgroundStrokeColor
               animatedColors:(NSArray *)colors;
 
 - (void)drawPieChartWithPercent:(CGFloat)percent
